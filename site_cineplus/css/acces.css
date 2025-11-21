@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+article>div>img {
+    display: block;
+    margin:auto;
+}
+
+article>div {
+	overflow:auto;
+}

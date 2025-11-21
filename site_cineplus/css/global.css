@@ -1,0 +1,130 @@
+@CHARSET "UTF-8";
+
+/* Généralités pour toute la page
+------------------------------------------------------------------------*/
+body {
+	background:
+    url('images/bobine-2.gif') no-repeat left top 10px,
+    url('images/bobine-1.gif') no-repeat right 10px bottom 100px grey;
+
+}
+
+/* Bandeau de la page
+------------------------------------------------------------------------*/
+header {
+	margin-left:20%;
+	margin-right:10%;
+	padding-bottom:30px;
+	text-align:center;
+	color:white;
+	font-family:Arial,sans-serif;
+	background:url('images/banniere.jpg') no-repeat top center black;
+    border-radius:10px;
+}
+
+header h1 {
+	font-size:3em;
+}
+header h2 {
+	font-size:2em;
+}
+
+
+/* Zone de menu
+------------------------------------------------------------------------*/
+nav {
+		text-align: left;
+}
+
+nav li {
+    display: inline;
+    margin-bottom:10px;
+}
+
+nav a {
+	display:inline-block;
+	font-size:150%;
+	color:grey;
+	background:white;
+	border-radius:10px;
+	margin-left:10px;
+	margin-top:10px;
+	padding:5px 20px;
+	text-decoration:none;
+	text-transform:Capitalize;
+}
+
+nav #page-actu {
+	color:black;
+	font-weight:bold;
+	background:#ddd;
+
+}
+
+
+/* Zone principale : l'article
+------------------------------------------------------------------------*/
+article {
+	margin:2%;
+	margin-left:20%;
+	margin-right:20%;
+	padding:10px;
+	border-radius:10px;
+	background:#ddd;
+}
+
+article h2 {
+    text-transform:Capitalize;
+}
+
+article li {
+	background: url('images/punaise.png') no-repeat left top;
+	padding-left: 50px;
+	padding-bottom:30px;
+	padding-top:20px;
+	list-style: none;
+}
+article li>p {
+	font-weight:bold;
+}
+
+.img-g {
+	float:left;
+	margin:5px;
+}
+
+.img-d {
+	float:right;
+	margin:5px;
+}
+
+.img-c {
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* Pied de page
+------------------------------------------------------------------------*/
+footer {
+	margin-left:20%;
+	margin-right:20%;
+}
+
+footer p {
+	color:white;
+	font-weight:bold;
+	text-align:center;
+}
+
+footer a {
+	margin-left:5%;
+	margin-right:5%;
+}
+
+hr {
+	border:none;
+	background:url('images/separation.png') center no-repeat;
+	height:32px;
+}
+
